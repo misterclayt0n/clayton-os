@@ -1,12 +1,18 @@
-# Simple operating system built in Rust
-### First steps
-#### Compile 
+# simple operating system built in rust
+### first steps
+#### add a bare metal enviroment target triple
+
+```zsh
+rustup target add thumbv7em-none-eabihf
+```
+
+#### compile 
 compile without a target operating system
 
 ```zsh
 cargo build --target thumbv7em-none-eabihf
 ```
 
-#### Roadmap
-- [x] build a minimal freestanding Rust binary
-- [ ] build a minimal freestanding Rust binary into a minimal operating system kernel
+#### roadmap
+- [x] build a minimal freestanding rust binary
+- [ ] build a minimal freestanding rust binary into a minimal operating system kernel
